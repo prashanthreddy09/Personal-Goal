@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Goal Review</title>
+  <link rel="stylesheet" href="./static/style.css?v=2">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-icon">✦</span><span>Goal<span class="brand-light">Review</span></span></a>
+    <span class="offline-tag"><span></span> Local workspace</span>
+  </header>
+
+  <main class="container">
+    <section class="welcome">
+      <div><p class="eyebrow">YOUR PERSONAL DASHBOARD</p><h1>Make progress, <span>one goal at a time.</span></h1>
+      <p class="subheading">Plan your goals, track milestones and reflect on your progress.</p></div>
+      <button class="primary-btn" id="open-add">＋ Add new goal</button>
+    </section>
+
+    <section class="stats-grid" id="stats">
+      <article class="stat-card"><p>Total goals</p><strong id="total">0</strong><small>All your goals</small></article>
+      <article class="stat-card"><p>Completed</p><strong id="completed">0</strong><small>Goals achieved</small></article>
+      <article class="stat-card"><p>In progress</p><strong id="in-progress">0</strong><small>Keep going</small></article>
+      <article class="stat-card"><p>Average progress</p><strong id="average">0%</strong><small>Across all goals</small></article>
+    </section>
+
+    <section class="panel">
+      <div class="section-head"><div><p class="eyebrow">OVERVIEW</p><h2>Your goals</h2></div>
+        <div class="export-actions"><a href="/api/export/csv">Export CSV</a><a href="/api/export/markdown">Export report</a></div>
+      </div>
+      <div class="filters">
+        <input id="search" type="search" placeholder="Search goals...">
+        <input id="category-filter" type="text" placeholder="Filter by category">
+        <select id="status-filter"><option value="">All statuses</option><option>Not Started</option><option>In Progress</option><option>Completed</option><option>Overdue</option></select>
+      </div>
+      <div id="goal-list" class="goal-list"><div class="empty-state">Loading your goals...</div></div>
+    </section>
+
+    <section class="panel analytics-panel">
+      <div class="section-head"><div><p class="eyebrow">INSIGHTS</p><h2>Progress analytics</h2></div></div>
+      <div id="analytics" class="analytics"><p class="muted">Your category breakdown will appear here.</p></div>
+    </section>
+    <footer>Personal Goal Review · Your data stays on this computer.</footer>
+  </main>
+
+  <div class="modal-backdrop" id="modal">
+    <form class="goal-form" id="goal-form">
+      <div class="form-heading"><div><p class="eyebrow">GOAL DETAILS</p><h2 id="form-title">Add a new goal</h2></div><button type="button" class="close-btn" id="close-modal">×</button></div>
+      <label>Goal title<input name="title" maxlength="80" required placeholder="e.g. Complete Python basics"></label>
+      <div class="form-row"><label>Category<input name="category" maxlength="40" required placeholder="Study, Fitness, Personal..."></label><label>Deadline<input name="deadline" type="date"></label></div>
+      <label>Description<textarea name="description" maxlength="500" rows="2" placeholder="What do you want to achieve?"></textarea></label>
+      <label>Milestones <span class="hint">(one per line)</span><textarea name="milestones" rows="3" placeholder="Finish chapter 1&#10;Complete practice questions"></textarea></label>
+      <label>Reflection<textarea name="reflection" maxlength="1000" rows="2" placeholder="Add a note about this goal"></textarea></label>
+      <label id="progress-label" class="progress-field">Progress <span id="progress-value">0%</span><input name="progress" type="range" min="0" max="100" value="0"></label>
+      <p id="form-error" class="error"></p>
+      <div class="form-buttons"><button type="button" class="secondary-btn" id="cancel-form">Cancel</button><button type="submit" class="primary-btn">Save goal</button></div>
+    </form>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="./static/script.js?v=2"></script>
+</body>
+</html>

@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1,
+        "title": "Complete Python Fundamentals",
+        "category": "Learning",
+        "description": "Build confidence with Python basics, functions, lists, dictionaries and file handling.",
+        "deadline": "2026-12-15",
+        "progress": 60,
+        "milestones": [
+            {
+                "name": "Revise variables and data types",
+                "done": true
+            },
+            {
+                "name": "Practice loops and conditions",
+                "done": true
+            },
+            {
+                "name": "Learn functions and modules",
+                "done": false
+            },
+            {
+                "name": "Build a small Python project",
+                "done": false
+            }
+        ],
+        "reflection": "Practicing small programs regularly is helping me understand the concepts.",
+        "created": "2026-11-10",
+        "updated": "2026-11-23"
+    },
+    {
+        "id": 2,
+        "title": "Prepare for Semester Examinations",
+        "category": "Academics",
+        "description": "Revise important topics from all subjects and practice short-answer questions.",
+        "deadline": "2026-12-17",
+        "progress": 35,
+        "milestones": [
+            {
+                "name": "Prepare subject-wise study plan",
+                "done": true
+            },
+            {
+                "name": "Finish Unit 1 revision",
+                "done": false
+            },
+            {
+                "name": "Revise Unit 2",
+                "done": true
+            },
+            {
+                "name": "Solve previous question papers",
+                "done": true
+            }
+        ],
+        "reflection": "A consistent daily study schedule should help me complete the syllabus on time.",
+        "created": "2026-11-12",
+        "updated": "2026-11-26"
+    },
+    {
+        "id": 3,
+        "title": "Create a Personal Portfolio Website",
+        "category": "Projects",
+        "description": "Create a simple responsive portfolio to showcase my skills and college projects.",
+        "deadline": "2026-11-30",
+        "progress": 100,
+        "milestones": [
+            {
+                "name": "Plan the website sections",
+                "done": true
+            },
+            {
+                "name": "Build the home page",
+                "done": true
+            },
+            {
+                "name": "Add project details",
+                "done": true
+            },
+            {
+                "name": "Test on desktop and mobile",
+                "done": true
+            }
+        ],
+        "reflection": "The first version is complete. I can improve the design and add more projects later.",
+        "created": "2026-11-01",
+        "updated": "2026-11-20"
+    },
+    {
+        "id": 4,
+        "title": "Develop a Daily Exercise Habit",
+        "category": "Personal",
+        "description": "Spend at least 20 minutes each day walking, stretching or doing a basic workout.",
+        "deadline": "2026-12-31",
+        "progress": 10,
+        "milestones": [
+            {
+                "name": "Choose a daily time",
+                "done": true
+            },
+            {
+                "name": "Complete the first week",
+                "done": false
+            },
+            {
+                "name": "Track activity for one month",
+                "done": false
+            }
+        ],
+        "reflection": "Starting with a small and realistic target makes it easier to stay consistent.",
+        "created": "2026-11-18",
+        "updated": "2026-11-23"
+    },
+    {
+        "id": 5,
+        "title": "Complete Smart Parking System Prototype",
+        "category": "Projects",
+        "description": "Build and test a working four-slot smart parking prototype using an ESP32, sensors and a display.",
+        "deadline": "2026-12-10",
+        "progress": 25,
+        "milestones": [
+            {
+                "name": "Collect all required components",
+                "done": true
+            },
+            {
+                "name": "Complete circuit connections",
+                "done": false
+            },
+            {
+                "name": "Upload and test the program",
+                "done": false
+            },
+            {
+                "name": "Demonstrate all four parking slots",
+                "done": false
+            }
+        ],
+        "reflection": "Break the project into small tasks and test each connection before the final demonstration.",
+        "created": "2026-11-26",
+        "updated": "2026-11-26"
+    },
+    {
+        "id": 6,
+        "title": "Practice C Programming Every Day",
+        "category": "Learning",
+        "description": "Improve problem-solving skills by solving beginner-level C programming exercises regularly.",
+        "deadline": "2026-12-31",
+        "progress": 20,
+        "milestones": [
+            {
+                "name": "Practice loops and conditions",
+                "done": true
+            },
+            {
+                "name": "Solve five array problems",
+                "done": true
+            },
+            {
+                "name": "Practice functions and recursion",
+                "done": false
+            },
+            {
+                "name": "Complete a small C mini-project",
+                "done": false
+            }
+        ],
+        "reflection": "Regular practice and testing different inputs can improve coding confidence.",
+        "created": "2026-11-26",
+        "updated": "2026-11-26"
+    },
+    {
+        "id": 7,
+        "title": "Improve Presentation Skills",
+        "category": "Personal",
+        "description": "Become more confident while explaining college projects and speaking in front of an audience.",
+        "deadline": "2026-12-18",
+        "progress": 40,
+        "milestones": [
+            {
+                "name": "Prepare a clear presentation script",
+                "done": true
+            },
+            {
+                "name": "Practice the script aloud",
+                "done": true
+            },
+            {
+                "name": "Rehearse with a teammate",
+                "done": false
+            },
+            {
+                "name": "Deliver the presentation confidently",
+                "done": false
+            }
+        ],
+        "reflection": "Practicing in short sessions can make the final presentation easier.",
+        "created": "2026-11-26",
+        "updated": "2026-11-26"
+    },
+    {
+        "id": 8,
+        "title": "Build a Consistent Study Routine",
+        "category": "Academics",
+        "description": "Follow a realistic daily timetable and revise class topics before examinations.",
+        "deadline": "2026-12-31",
+        "progress": 15,
+        "milestones": [
+            {
+                "name": "Create a weekly timetable",
+                "done": true
+            },
+            {
+                "name": "Study for one focused hour daily",
+                "done": false
+            },
+            {
+                "name": "Revise notes every weekend",
+                "done": false
+            },
+            {
+                "name": "Review weekly progress",
+                "done": false
+            }
+        ],
+        "reflection": "A manageable timetable is easier to follow than an overloaded schedule.",
+        "created": "2026-11-26",
+        "updated": "2026-11-26"
+    }
+]
